@@ -1,0 +1,36 @@
+/*Calendar Styling*/
+#header{
+  font-family:"Times New Roman";
+  text-align:center;
+  display: inline-block;
+}
+/*body*/
+body{
+  background-color: lightgreen;
+}
+/*calendar*/
+  .calendar {
+    display: inline;
+    font-family: 'Times New Roman';
+    margin-top: 0px;
+  }
+  th {
+    height: 30px;
+    text-align: center;
+    font-weight: 700;
+  }
+  /*data of the days*/
+  td {
+    height: 100px;
+  }
+  /*when you hover over the days*/
+  td:hover{
+    background-color: lightblue;
+  }
+
+  /*table*/
+  table{
+    border: 1px solid black;
+  }
+  /*for navigation*/
+  #navigation{float:right;}

@@ -1,0 +1,45 @@
+/*LOGIN PAGE*/
+body{
+  background-color:#58D68D;}
+/*header styling*/
+h2{
+  text-align:center;
+  font-size:30px;
+  font-family:"Times New Roman";}
+
+span{font-size:27px;}
+
+#idform1, #idform2{
+  text-align: left;
+  font-family:"Times New Roman";}
+
+.login{
+  margin:30px;text-align:center;
+  background-color: #F8F9F9;
+  -webkit-border-radius: 5px;
+  padding: 13px;
+  padding: 10px 10px 10px 10px;}
+
+#idpass, #iduser{
+  height:30px;
+  font-size:20px;
+  font-family:"Times New Roman";
+  -webkit-border-radius: 3px;}
+
+  input[type=submit]{
+    height:30px;
+    font-size:20px;}
+
+  input[type=submit]:hover{
+    background-color: #58D68D;}
+
+    input[type=text], input[type=password] {
+      border: 2px solid black;
+      border-radius: 7px;
+  }
+
+  input[type=text]:focus, input[type=password]:focus {
+      outline: none;
+      border-color: #58D68D;
+      box-shadow: 0 0 10px #58D68D;
+  }
